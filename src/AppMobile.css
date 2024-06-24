@@ -1,0 +1,51 @@
+
+@media screen and (min-width:375px) and (max-width:768px) {
+    body {
+        /* background-color: gray; */
+        max-width: 70%;
+    }
+
+    .addArticle-btn button {
+        background-color: wheat;
+        color: black;
+        font-weight: 400;
+        font-family: "Playfair Display", serif;
+        width: 65px;
+        padding: 5px;
+        font-size: 16px;
+        border: none;
+      }
+      .dropbtn {
+        background-color: black;
+        color: white;
+        font-weight: 400;
+        font-family: "Playfair Display", serif;
+        padding: 5px;
+        font-size: 16px;
+        border: none;
+        width: 65px;
+      }
+}
+@media screen and (max-width:375px){
+    body {
+        /* background-color: aqua; */
+        max-width: 60%;
+        margin: 20px auto;
+        border: none;
+}
+    .addArticle-btn button, 
+    .dropbtn {
+        margin-left:  60px;
+    }
+    .articles-nav {
+        margin-left: -50px;
+    }
+    .article {
+        /* border: 2px solid black; */
+        min-width: 300px;
+        margin-left: -50px;
+    }
+    .delete-article-btn {
+        margin-left: -50px;   
+    }
+}

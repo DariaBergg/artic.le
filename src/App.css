@@ -1,0 +1,197 @@
+
+body {
+  font-family: "Playfair Display", serif;
+  border: 1px solid black;
+  max-width: 50%;
+  margin: 40px auto;
+  font-weight: 400;
+  padding: 20px 50px;
+}
+button {
+  cursor: pointer;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.articles-nav {
+  line-height: 10px;
+  /* border: 2px solid red; */
+}
+
+.articles-nav a {
+  text-decoration: none;
+  color: black;
+}
+.articles-nav h4,
+.articles-nav form {
+  margin: 10px 0; /* Устанавливаем отступы по вертикали 5px, а по горизонтали 0 */
+}
+
+.articles-nav h4 {
+  background-color: wheat;
+  padding: 5px;
+}
+
+.search button {
+  background-color: wheat;
+  border: 1px solid black;
+  color: black;
+  padding: 5px;
+}
+ input {
+  border: 1px solid black;
+  padding: 5px;
+}
+
+input::placeholder {
+  color: black;
+}
+
+.addArticle-btn button {
+  background-color: wheat;
+  color: black;
+  font-weight: 400;
+  font-family: "Playfair Display", serif;
+  width: 85px;
+  padding: 12px;
+  font-size: 20px;
+  border: none;
+}
+
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: black;
+  color: white;
+  font-weight: 400;
+  font-family: "Playfair Display", serif;
+  padding: 12px;
+  font-size: 20px;
+  border: none;
+  width: 85px;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+.articles-container {
+  text-align: left;
+}
+
+.article-ul ul {
+  display: flex;
+  flex-direction: row;
+  list-style: square;
+}
+
+.article-ul li {
+  margin-right: 50px;
+}
+
+
+/* profile page styles*/
+.profile-header {
+  margin: 10px auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.profile-page {
+  margin: 10px auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.profile-form {
+  /* border: 2px solid pink; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-form input {
+  background-color: white;
+  padding: 6px 12px;
+} 
+
+.profile-form button {
+  border: 1px solid black;
+  font-family: "Playfair Display", serif;
+  background-color: wheat;
+  padding: 8px 12px;
+  font-size: 14px;
+  font-weight: 1000;
+  margin-top: 10px;
+}
+
+.add-article-btn, .log-out-btn {
+  font-family: "Playfair Display", serif;
+  background-color: black;
+  border: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 800;
+  padding: 8px 8px;
+}
+
+.add-article-btn {
+  background-color: wheat;
+  color: black;
+}
+.profile-btns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between
+}
+
+.create-article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.delete-article-btn {
+  background-color: black;
+  border: none;
+  width: 70px;
+  height: 30px;
+  color: white;
+  font-family: serif;
+  font-weight:600;
+  font-size: 18px;
+}
