@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/artic.le/static/css/main.af77565e.css",
+    "main.js": "/artic.le/static/js/main.0be875c3.js",
+    "static/js/453.00a5d2c6.chunk.js": "/artic.le/static/js/453.00a5d2c6.chunk.js",
+    "index.html": "/artic.le/index.html",
+    "main.af77565e.css.map": "/artic.le/static/css/main.af77565e.css.map",
+    "main.0be875c3.js.map": "/artic.le/static/js/main.0be875c3.js.map",
+    "453.00a5d2c6.chunk.js.map": "/artic.le/static/js/453.00a5d2c6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.af77565e.css",
+    "static/js/main.0be875c3.js"
+  ]
+}
